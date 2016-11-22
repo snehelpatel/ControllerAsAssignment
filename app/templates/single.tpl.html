@@ -3,11 +3,12 @@
 
 <div id= "singular">
 
-<div><img src= "{{single.user.image}}"></div>
+<div id= "image-container"><img src= "{{single.user.image}}"></div>
 <h3>Name: {{ single.user.name }}</h3>
 <h3>Email: {{ single.user.email }}</h3>
 <h3>Cellphone: {{ single.user.phone }}</h3>
 <h3>Location: {{ single.user.city }}</h3>
 
-<button ng-click="single.deleteUser(user)" class="button is-primary">Bye, {{single.user.name}}</button>
+<button ng-click="single.deleteUser(user)" class="delete-button">Bye,
+{{single.user.name}}</button>
 </div>
