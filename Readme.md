@@ -4,4 +4,4 @@ Today's assignment helped clarify where we might be tempted to use `$scope` too 
 
 
 
-[User Contact Form ]: (http://tiy-snehelpatel-sophisticatedform.surge.sh)
+[User Contact Form ](http://tiy-snehelpatel-sophisticatedform.surge.sh)
