@@ -1,0 +1,12 @@
+<h3 class="title">User Directory</h3>
+
+<ul class="users">
+  <li ng-repeat="user in home.users">
+    <a href="#/user/{{ user._id }}">
+      <div class="card">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <h3> Name: {{ user.name }}</h3>
+      </div>
+    </a>
+  </li>
+</ul>

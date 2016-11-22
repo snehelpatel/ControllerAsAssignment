@@ -1,0 +1,59 @@
+@import "bulma";
+
+body {
+  font-family: monospace;
+
+}
+
+.title {
+  text-align: center;
+}
+//home template styling //
+
+#layout-nav {
+  display: flex;
+  justify-content: center;
+
+    a{
+      margin: 5px;
+    }
+}
+
+.card {
+  position: relative;
+  height: 30px;
+
+  h3 {
+    padding-left:10px;
+    margin:10px;
+
+  }
+
+  .fa-user {
+    position: absolute;
+    top: 5px;
+
+  }
+}
+
+//add page styling//
+
+#add {
+  margin:auto;
+  width: 400px;
+}
+
+h6{
+  font-size: 40px;
+  text-align: center;
+}
+
+//single styling
+
+#singular {
+  border: 1px solid gray;
+  padding: 15px;
+  border-radius: 5px;
+  width: 400px;
+  margin: auto;
+}

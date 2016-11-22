@@ -1,0 +1,28 @@
+<h6>Add a New User</h6>
+<form id = "add">
+
+  <label class="label">User Image</label>
+  <p class="control">
+    <input class="input" type="text" placeholder="Image Url" ng-model="user.image">
+  </p>
+<label class="label">Name</label>
+<p class="control">
+  <input class="input" type="text" placeholder="Text input" ng-model="user.name">
+</p>
+<label class="label">Email</label>
+<p class="control has-icon has-icon-right">
+  <input class="input" type="text" placeholder="Email input" value="hello@" ng-model="user.email">
+</p>
+<label class="label">Phone</label>
+<p class="control">
+  <input class="input" type="text" placeholder="Text input" ng-model="user.phone">
+</p>
+<label class="label">Location</label>
+<p class="control location">
+  <input class="input" type="text" placeholder="City, State, Country" ng-model="user.city">
+</p>
+<p class="control ">
+  <button ng-click="add.addUser(user)" class="button is-primary">Submit</button>
+</p>
+
+</form>
